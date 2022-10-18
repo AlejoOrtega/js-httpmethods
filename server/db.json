@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": "0bdf3b7b-44ef-458a-b2ff-0b46ba8b5fd2",
+      "name": "Joao",
+      "surname": "Guimaraes",
+      "register": "AAAE"
+    },
+    {
+      "id": "46f1a7ae-63cc-4e34-ac58-a19dfc44bcf0",
+      "name": "Laura",
+      "surname": "Clochobar",
+      "register": "AAAC"
+    },
+    {
+      "id": "46f15cb2-e38d-433e-8d7c-6dc6d7491d63",
+      "name": "Emerson",
+      "surname": "Lopes",
+      "register": "AAAD"
+    },
+    {
+      "id": "48f15cb2-e38d-433e-8d7c-6dc6d7491d63",
+      "name": "Alex",
+      "surname": "Ortega",
+      "register": "AAAE"
+    }
+  ]
+}

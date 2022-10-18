@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hello world</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="form">
+        <form method="post" id="dataForm">
+          <input name="name" type="text" placeholder="name" />
+          <input name="surname" type="text" placeholder="surname" />
+          <input name="register" type="text" placeholder="register" />
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+      <section class="students">
+        <ul class="students__list">
+          <!--           <li>
+            <div class="student">
+              <p><span class="bold">ID:</span>1</p>
+              <p><span class="bold">Name:</span></p>
+              <p><span class="bold">Surname:</span></p>
+              <p><span class="bold">Register:</span></p>
+            </div>
+          </li> -->
+        </ul>
+      </section>
+      <section class="form-update">
+        <form method="patch" id="updateDataForm">
+          <input name="id" type="text" placeholder="id" disabled/>
+          <input name="name" type="text" placeholder="name" />
+          <input name="surname" type="text" placeholder="surname" />
+          <input name="register" type="text" placeholder="register" />
+          <input type="submit" value="Send" disabled/>
+        </form>
+      </section>
+    </main>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>

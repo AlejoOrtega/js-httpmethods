@@ -1,0 +1,76 @@
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* UTILS */
+.bold {
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* FORM */
+
+.form {
+  background-color: lightgrey;
+  width: 100%;
+  padding: 16px;
+}
+
+.form > form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-top: 32px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.students {
+  margin-top: 32px;
+}
+
+.students li {
+  list-style: none;
+}
+
+.student {
+  display: flex;
+  border: 1px solid grey;
+}
+
+.student p {
+  padding: 8px;
+}
+
+.action-container {
+  display: flex;
+  gap: 8px;
+}
+
+.action-container input {
+  flex-grow: 1;
+}
+
+.form-update {
+  background-color: lightgrey;
+  width: 100%;
+  padding: 16px;
+}
+
+.form-update > form-update {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-top: 32px;
+  width: 400px;
+  margin: 0 auto;
+}
